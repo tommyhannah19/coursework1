@@ -28,7 +28,7 @@ class Dex2Hex {
                 System.out.println("Hexadecimal representation is: " + hexadecimal);
             } catch (NumberFormatException e) {
                 logger.severe("Error: Invalid input. Please provide a valid decimal value.");
-                System.exit(1); // Exit with an error code
+                System.exit(1); // Exit with an error code & added comment for test
             }
         }
     }
